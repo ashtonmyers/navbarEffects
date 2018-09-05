@@ -1,0 +1,48 @@
+ul {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  padding: 0.5% 0;
+  background-color: #5db3ff;
+  border-radius: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5%;
+  transition: ease-in-out 0.65s;
+  padding: 0.3%;
+  border-radius: 10px;
+}
+
+a {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffe95d;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #ff5d88;
+}
+
+.rotate:hover {
+  transform: rotate(1080deg);
+}
+
+
+.scaleYX:hover {
+  transform: scale(1.26);
+}
+
+.scale:hover {
+  transform: scaleY(1.35);
+}
+
+.rotateX:hover {
+  transform: rotateX(50deg);
+}
+
+.rotateY:hover {
+  transform: rotateY(50deg);
+}
